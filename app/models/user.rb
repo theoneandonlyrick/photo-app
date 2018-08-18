@@ -5,5 +5,5 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   has_one :payment
-  accept_nested_attributes_for :payment
+  accepts_nested_attributes_for :payment
 end
